@@ -5,13 +5,13 @@ This practical demonstrates how to:
 create dockerfile
 create docker-compose.yml file
 
-- Use Docker Compose to manage the container.
-- 
-- Add a health check to the container.
+Add a health check to the container.
 health check
 docker ps
--
- Push the Docker image to Docker Hub.
+
+Push the Docker image to Docker Hub.
+docker tag simple-node-app Raghavanaveen/sit737-2025-prac5p
+docker push Raghavanaveen/sit737-2025-prac5p
 
 Setting Up the GitHub Repository
 
